@@ -31,4 +31,12 @@
       screen.value = answer;
     }
   })
+
+  // Third Functionality : Clear Screen
+
+  clear.addEventListener("click", function (e) {
+    screen.value = "";
+    console.log("Clear button clicked")
+  })
+
 })()
