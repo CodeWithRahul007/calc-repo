@@ -36,7 +36,7 @@
 
   clear.addEventListener("click", function (e) {
     screen.value = "";
-    console.log("Clear button clicked")
+    // console.log("Clear button clicked")
   })
 
 })()
