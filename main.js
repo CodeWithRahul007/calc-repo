@@ -18,4 +18,17 @@
       screen.value += userInput;
     })
   })
+
+  // Second Functionality: Equal Button
+  equal.addEventListener('click', function (e) {
+    if (screen.value === "") {
+      screen.value = "";
+      console.log("equal button clicked")
+    } else {
+      // let calculatedResult = eval("2+5+3");
+      // console.log(calculatedResult);
+      let answer = eval(screen.value);
+      screen.value = answer;
+    }
+  })
 })()
